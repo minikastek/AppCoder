@@ -10,7 +10,6 @@ export default function App() {
   const [selectedTask, setSelectedTask] = useState(null);
 
   const onHandleChangeText = (text) => {
-    console.warn('text', text);
     setTask(text);
   }
 
